@@ -75,7 +75,7 @@ class HomeController extends Controller
         // // equivalent to $owner->perms()->sync(array($createPost->id, $editUser->id));
 
         // ============ check role and permission
-        $user = User::where('name', '=', 'admin')->first();
+        // $user = User::where('name', '=', 'admin')->first();
 
         // $user->hasRole('owner');   // false
         // // or

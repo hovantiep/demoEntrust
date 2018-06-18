@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('createUser', 'HomeController@createUser');
+
+Route::get('/post', 'PostController@show');
